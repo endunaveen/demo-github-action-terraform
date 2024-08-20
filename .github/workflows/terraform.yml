@@ -28,7 +28,7 @@ jobs:
       with:
        aws_access_key_id: ${{ secrets.AWS_DEVOPS_ACCESS_KEY_ID }}
        aws_secret_access_key: ${{secrets.AWS_DEVOPS_SECRET_ACCESS_KEY }}
-       aws_region: ${{ env.AWS_REGION}}
+       aws_region: ${{ env.AWS_REGION }}
        
 
 
